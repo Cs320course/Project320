@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Test {
 	public static void main(String[] args) {
-		Library ozuLib = new Library("Ozyegin Library", 1232121);
+		Library ozuLib = new Library("Hello Ozyegin Library", 1232121);
 		Library nationalLib = new Library("National Library", 9996666);
 		
 		ozuLib.addBook(new Book("Deitel's Java", "444-43-2", 305));
